@@ -1,0 +1,9 @@
+[
+  {
+    "op": "add",
+    "path": "/storageFlags",
+    "value": 33,
+    "file": "game:blocktypes/plant/herb.json",
+    "side": "Server"
+  }
+]

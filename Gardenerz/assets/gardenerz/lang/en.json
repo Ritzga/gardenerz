@@ -1,0 +1,9 @@
+{
+    "init": "[gardenerz] gardenerz loaded",
+    "init-client": "[gardenerz] started in client",
+    "init-client-loaded": "[gardenerz] classes loaded on client",
+    "init-server": "[gardenerz] started in server",
+    "init-server-loaded": "[gardenerz] classes loaded on server",
+    "debug-player-empty": "[gardenerz] player is empty on join",
+    "debug-entity-empty": "[gardenerz] player entity is empty on join",
+}

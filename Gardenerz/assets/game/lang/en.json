@@ -1,0 +1,14 @@
+{
+    "trait-gardener": "<font color=\"#84ff84\">• Gardener</font>",
+    "traitname-gardener": "Gardener",
+    "traitdesc-gardener": "You are natural at taking care of plants",
+
+    "trait-green-fingers": "<font color=\"#84ff84\">• Green fingers</font>",
+    "traitname-green-fingers": "Green fingers",
+
+    "charattribute-cropDropRate-0.5": "+50% crop from harvesting",
+    "charattribute-wildCropDropRate-0.2": "+20% wild crop harvesting",
+    
+    "characterclass-gardener": "Gardener",
+    "characterdesc-gardener": "Long years of providing food to your village made you an experienced gardener. You may not good at take care of animals but you are very good at cultivating plants."
+}
