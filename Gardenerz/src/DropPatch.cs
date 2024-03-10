@@ -9,6 +9,7 @@ namespace Gardenerz;
 [HarmonyPatch]
 public class DropPatch
 {
+    const int maxAdditionalDrop = 5;
     
     [HarmonyPostfix]
     [HarmonyPatch(typeof (BlockCrop), nameof(BlockCrop.GetDrops))]
@@ -22,7 +23,12 @@ public class DropPatch
             
             foreach (var stack in __result)
             {
-                stack.StackSize += Random.Shared.NextSingle() > dropRate ? 0 : 1;
+                var add = 0;
+                while (Random.Shared.NextSingle() < dropRate && add < maxAdditionalDrop)
+                {
+                    add++;
+                }
+                stack.StackSize += add;
                 stack.StackSize = (int) MathF.Round(stack.StackSize * multiplier, MidpointRounding.ToEven);
             }
         }

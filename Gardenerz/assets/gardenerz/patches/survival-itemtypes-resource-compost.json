@@ -1,9 +1,0 @@
-[
-  {
-    "op": "replace",
-    "path": "/storageFlags",
-    "value": 37,
-    "file": "game:itemtypes/resource/compost.json",
-    "side": "Server"
-  }
-]

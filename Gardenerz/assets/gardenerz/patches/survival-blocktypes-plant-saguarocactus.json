@@ -1,9 +1,0 @@
-[
-  {
-    "op": "add",
-    "path": "/storageFlags",
-    "value": 33,
-    "file": "game:blocktypes/plant/saguarocactus.json",
-    "side": "Server"
-  }
-]

@@ -9,7 +9,8 @@
     "description": "Adds the gardener class to vintage story.",
     "version": "0.1.0",
     "dependencies": {
-        "game": "1.19.0"
+        "game": "1.19.0",
+        "betteritems": "0.1.0"
     },
     "side" : "Universal",
     "requiredOnClient": true,
