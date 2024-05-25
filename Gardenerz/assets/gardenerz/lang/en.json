@@ -6,4 +6,7 @@
     "init-server-loaded": "[gardenerz] classes loaded on server",
     "debug-player-empty": "[gardenerz] player is empty on join",
     "debug-entity-empty": "[gardenerz] player entity is empty on join",
+    
+    "item-gardening-bag": "Gardening bag",
+    "itemdesc-gardening-bag": "Can store all items related to plants, seeds or crops."
 }

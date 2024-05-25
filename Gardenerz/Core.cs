@@ -27,8 +27,11 @@ namespace Gardenerz
             harmony.PatchAll();
             
             api.Logger.Notification(api is ICoreServerAPI ? Lang.Get("gardenerz:init-server-loaded") : Lang.Get("gardenerz:init-client-loaded"));
+            
             //adds new behavior
-            //api.RegisterEntityBehaviorClass("caveHandler", typeof(EntityBehaviorCheckInCave));
+            //api.RegisterBlockBehaviorClass("Moving", typeof(BlockWorkBox));
+            
+            //adds new block
         } 
 
         public override void StartServerSide(ICoreServerAPI api)

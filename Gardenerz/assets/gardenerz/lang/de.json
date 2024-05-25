@@ -1,0 +1,9 @@
+{
+    "init": "[gardenerz] gardenerz geladen",
+    "init-client": "[gardenerz] lokal geladen",
+    "init-client-loaded": "[gardenerz] Klassen geladen",
+    "init-server": "[gardenerz] auf dem Server geladen",
+    "init-server-loaded": "[gardenerz] Klassen auf dem Server geladen",
+    "debug-player-empty": "[gardenerz] Spieler nicht gefunden",
+    "debug-entity-empty": "[gardenerz] Spieler instanz nicht geladen",
+}

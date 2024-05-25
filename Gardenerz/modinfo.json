@@ -1,6 +1,6 @@
 {
     "type": "Code",
-    "modid": "Gardenerz",
+    "modid": "gardenerz",
     "name": "Gardenerz",
     "website": "https://Ritzga.dog",
     "authors": [
@@ -10,7 +10,7 @@
     "version": "0.1.0",
     "dependencies": {
         "game": "1.19.0",
-        "betteritems": "0.1.0"
+        "betteritemflags": "0.1.0"
     },
     "side" : "Universal",
     "requiredOnClient": true,

@@ -31,4 +31,10 @@
             <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
         </Content>
     </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="assets\gardenerz\blocktypes\" />
+      <Folder Include="src\BlockEntity\WormBox\" />
+      <Folder Include="src\Block\" />
+    </ItemGroup>
 </Project>

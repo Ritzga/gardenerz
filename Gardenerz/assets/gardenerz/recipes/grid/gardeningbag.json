@@ -1,0 +1,13 @@
+﻿{
+    "ingredientPattern": "_T_,PLP",
+    "ingredients": {
+        "T": { "type": "item", "code": "game:flaxtwine" },
+        "L": { "type": "block", "code": "game:linen-*" },
+        "P": { "type": "item", "code": "game:cloth-plain" }
+    },
+    "width": 3,
+    "height": 2,
+    "requiresTrait": "gardener",
+    "name": "gardeningbag",
+    "output": { "type": "item", "code": "gardenerz:gardening-bag"  }
+}
