@@ -6,10 +6,14 @@
     "trait-green-fingers": "<font color=\"#84ff84\">• Green fingers</font>",
     "traitname-green-fingers": "Green fingers",
 
+    "trait-healthy": "<font color=\"#84ff84\">• Healthy</font>",
+    "traitname-healthy": "Healthy",
+
     "charattribute-cropDropRate-0.4": "+40% crop from harvesting",
     "charattribute-wildCropDropRate-0.2": "+20% wild crop harvesting",
     "charattribute-cropMultiplier-1.1": "+10% multiplier for crop yield",
     "charattribute-wildCropMultiplier-1.4": "+40% multiplier for wild crop yield",
+    "charattribute-maxhealthExtraPoints-3": "+3 health points",
     
     "characterclass-gardener": "Gardener",
     "characterdesc-gardener": "Long years of providing food to your village made you an experienced gardener. You may not good at take care of animals but you are very good at cultivating plants."

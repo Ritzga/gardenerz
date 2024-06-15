@@ -6,11 +6,15 @@
     "trait-green-fingers": "<font color=\"#84ff84\">• Grüner Daumen</font>",
     "traitname-green-fingers": "Grüner Daumen",
 
-    "charattribute-cropDropRate-0.5": "+50% Ernte aus der Ernte",
+    "trait-healthy": "<font color=\"#84ff84\">• Gesunde Lebensweise</font>",
+    "traitname-healthy": "Gesunde Lebensweise",
+    
+    "charattribute-cropDropRate-0.4": "+40% Ernte aus der Ernte",
     "charattribute-wildCropDropRate-0.2": "+20% Wildpflanzenernte",
-    "charattribute-cropMultiplier-1.1": "+10% Multiplikator für den Ernteertragd von gezüchteten Pflanzen",
-    "charattribute-wildCropMultiplier-1.4": "+10% Multiplikator für den Ernteertrag von wilden Pflanzen",
+    "charattribute-cropMultiplier-1.1": "+10% Multiplikator für den Ernteertrag von gezüchteten Pflanzen",
+    "charattribute-wildCropMultiplier-1.4": "+40% Multiplikator für den Ernteertrag von wilden Pflanzen",
+    "charattribute-maxhealthExtraPoints-3": "+3 Lebenspunkte",
     
     "characterclass-gardener": "Gärtner:in",
-    "characterdesc-gardener": "Long years of providing food to your village made you an experienced gardener. You may not good at take care of animals but you are very good at cultivating plants."
+    "characterdesc-gardener": "Durch die jahrelange Versorgung deines Dorfes mit Lebensmitteln hast du viel Erfahrung mit Pflanzen. Du bist vielleicht nicht gut darin, dich um Tiere zu kümmern, aber du bist sehr gut darin, Pflanzen zu züchten."
 }

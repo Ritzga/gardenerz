@@ -6,4 +6,7 @@
     "init-server-loaded": "[gardenerz] Klassen auf dem Server geladen",
     "debug-player-empty": "[gardenerz] Spieler nicht gefunden",
     "debug-entity-empty": "[gardenerz] Spieler instanz nicht geladen",
+
+    "item-gardening-bag": "Pflanzentasche",
+    "itemdesc-gardening-bag": "Kann alle Items im Zusammenhang mit Pflanzen, Saatgut oder Ernten lagern."
 }

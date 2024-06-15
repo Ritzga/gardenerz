@@ -2,12 +2,12 @@
     "type": "Code",
     "modid": "gardenerz",
     "name": "Gardenerz",
-    "website": "https://Ritzga.dog",
+    "website": "https://ritzga.github.io/",
     "authors": [
         "Ritzga"
     ],
     "description": "Adds the gardener class to vintage story.",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "dependencies": {
         "game": "1.19.0",
         "betteritemflags": "0.1.0"

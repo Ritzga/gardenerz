@@ -49,7 +49,7 @@ public class BetterCharacter
             },
             Traits = new []
             {
-                "green-fingers", "gardener", "weak", "kind", "nearsighted", "nervous"
+                "green-fingers", "gardener", "healthy", "kind", "nearsighted", "nervous"
             }
         },
     };
@@ -71,6 +71,14 @@ public class BetterCharacter
         {
             Code = "gardener",  
             Attributes = new Dictionary<string, double>(),
+            Type = EnumTraitType.Positive
+        },
+        new Trait
+        {
+            Code = "healthy",  
+            Attributes = new Dictionary<string, double>() {
+                {"maxhealthExtraPoints", 3}
+            },
             Type = EnumTraitType.Positive
         },
     };
