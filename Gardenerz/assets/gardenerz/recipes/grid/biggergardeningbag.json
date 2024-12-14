@@ -1,0 +1,13 @@
+﻿{
+    "ingredientPattern": "LTL,PLP",
+    "ingredients": {
+        "T": { "type": "item", "code": "gardenerz:gardening-bag"},
+        "L": { "type": "block", "code": "game:linen-*", "quantity": 6},
+        "P": { "type": "item", "code": "game:cloth-plain", "quantity": 4}
+    },
+    "width": 3,
+    "height": 2,
+    "requiresTrait": "gardener",
+    "name": "biggergardeningbag",
+    "output": { "type": "item", "code": "gardenerz:bigger-gardening-bag"  }
+}

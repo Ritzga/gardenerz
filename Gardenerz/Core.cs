@@ -57,10 +57,10 @@ namespace Gardenerz
         /// <param name="player"></param>
         private void CheckBearIsJoined(IServerPlayer player)
         {
-            if (player.PlayerName == "Syd")
-            {
-                player.SendMessage(GlobalConstants.GeneralChatGroup, "Hewwo cute honey bear <3~", EnumChatType.CommandSuccess);
-            }
+            //if (player.PlayerName == "Syd")
+            //{
+            //    player.SendMessage(GlobalConstants.GeneralChatGroup, "Hewwo cute honey bear <3~", EnumChatType.CommandSuccess);
+            //}
         }
     }
 }

@@ -1,5 +1,5 @@
 {
-	"code": "gardenerz:gardening-bag",
+	"code": "gardenerz:bigger-gardening-bag",
 	"maxstacksize": 1,
 	"shape": { "base": "game:item/bag/linensack" },
 	"behaviors": [{ "name": "GroundStorable", "properties": { "layout": "SingleCenter", "collisionBox": { "x1": 0.25, "y1": 0, "z1": 0.25, "x2": 0.75, "y2": 0.375, "z2": 0.75 }}}],
@@ -34,7 +34,7 @@
 	},
 	"attributes": {
 		"backpack": {
-			"quantitySlots": 10,
+			"quantitySlots": 16,
 			"storageFlags": 32,
 			"slotBgColor": "#c7ffa5"
 		}

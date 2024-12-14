@@ -8,5 +8,7 @@
     "debug-entity-empty": "[gardenerz] Spieler instanz nicht geladen",
 
     "item-gardening-bag": "Pflanzentasche",
-    "itemdesc-gardening-bag": "Kann alle Items im Zusammenhang mit Pflanzen, Saatgut oder Ernten lagern."
+    "itemdesc-gardening-bag": "Kann alle Items im Zusammenhang mit Pflanzen, Saatgut oder Ernten lagern.",
+    "item-bigger-gardening-bag": "Erweiterte Pflanzentasche",
+    "itemdesc-bigger-gardening-bag": "Erweiterte Tasche zum lagern von Items im Zusammenhang mit Pflanzen, Saatgut oder Ernte."
 }

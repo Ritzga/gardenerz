@@ -10,27 +10,30 @@ namespace Gardenerz;
 [HarmonyPatch]
 public class DropPatch
 {
-    const int maxAdditionalDrop = 5;
+    const int maxAdditionalDrop = 3;
     
     [HarmonyPostfix]
     [HarmonyPatch(typeof (BlockCrop), nameof(BlockCrop.GetDrops))]
-    public static ItemStack[] PatchDrop(ItemStack[] __result, IWorldAccessor world, BlockPos pos, IPlayer byPlayer, float dropQuantityMultiplier)
+    public static ItemStack[] PatchDrop(ItemStack[] __result, IWorldAccessor world, BlockPos pos, IPlayer byPlayer, float dropQuantityMultiplier, BlockCrop __instance)
     {
-        var classSystem = byPlayer.Entity.Api?.ModLoader?.GetModSystem<CharacterSystem>();
-        if (classSystem?.HasTrait(byPlayer, "green-fingers") ?? false)
+        if (__instance.CurrentCropStage > __instance.CropProps.GrowthStages - 2)
         {
-            var multiplier = (float)classSystem.TraitsByCode["green-fingers"].Attributes["cropMultiplier"];
-            var dropRate = (float)classSystem.TraitsByCode["green-fingers"].Attributes["cropDropRate"];
-            
-            foreach (var stack in __result)
+            var classSystem = byPlayer.Entity.Api?.ModLoader?.GetModSystem<CharacterSystem>();
+            if (classSystem?.HasTrait(byPlayer, "green-fingers") ?? false)
             {
-                var add = 0;
-                while (Random.Shared.NextSingle() < dropRate && add < maxAdditionalDrop)
+                var multiplier = (float)classSystem.TraitsByCode["green-fingers"].Attributes["cropMultiplier"];
+                var dropRate = (float)classSystem.TraitsByCode["green-fingers"].Attributes["cropDropRate"];
+            
+                foreach (var stack in __result)
                 {
-                    add++;
+                    var add = 0;
+                    while (Random.Shared.NextSingle() < dropRate && add < maxAdditionalDrop)
+                    {
+                        add++;
+                    }
+                    stack.StackSize += add;
+                    stack.StackSize = (int) MathF.Round(stack.StackSize * multiplier, MidpointRounding.ToEven);
                 }
-                stack.StackSize += add;
-                stack.StackSize = (int) MathF.Round(stack.StackSize * multiplier, MidpointRounding.ToEven);
             }
         }
         return __result;

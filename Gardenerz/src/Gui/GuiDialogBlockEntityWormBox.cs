@@ -17,7 +17,6 @@ public class GuiDialogBlockEntityWormBox : GuiDialogBlockEntity
         Attributes = tree;
     }
     
-    
     private void OnAttributesModified()
     {
         if (!IsOpened()) return;

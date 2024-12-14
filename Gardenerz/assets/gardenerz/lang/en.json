@@ -8,5 +8,7 @@
     "debug-entity-empty": "[gardenerz] player entity is empty on join",
     
     "item-gardening-bag": "Gardening bag",
-    "itemdesc-gardening-bag": "Can store all items related to plants, seeds or crops."
+    "itemdesc-gardening-bag": "Can store all items related to plants, seeds or crops.",
+    "item-bigger-gardening-bag": "Enhanced Gardening bag",
+    "itemdesc-bigger-gardening-bag": "Can store more and all items related to plants, seeds or crops."
 }
