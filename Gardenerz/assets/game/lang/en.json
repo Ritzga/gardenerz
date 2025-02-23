@@ -9,10 +9,10 @@
     "trait-healthy": "<font color=\"#84ff84\">• Healthy</font>",
     "traitname-healthy": "Healthy",
 
-    "charattribute-cropDropRate-0.4": "+40% crop from harvesting",
+    "charattribute-cropDropRate-0.3": "+30% crop from harvesting",
     "charattribute-wildCropDropRate-0.2": "+20% wild crop harvesting",
     "charattribute-cropMultiplier-1.1": "+10% multiplier for crop yield",
-    "charattribute-wildCropMultiplier-1.4": "+40% multiplier for wild crop yield",
+    "charattribute-wildCropMultiplier-1.3": "+30% multiplier for wild crop yield",
     "charattribute-maxhealthExtraPoints-3": "+3 health points",
     
     "characterclass-gardener": "Gardener",

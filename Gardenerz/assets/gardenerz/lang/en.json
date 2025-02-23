@@ -9,6 +9,13 @@
     
     "item-gardening-bag": "Gardening bag",
     "itemdesc-gardening-bag": "Can store all items related to plants, seeds or crops.",
+    
+    "item-gardening-bag-sturdy": "Sturdy Gardening bag",
+    "itemdesc-gardening-bag-sturdy": "Can store more items related to plants, seeds or crops then the gardening bag.",
+    
     "item-bigger-gardening-bag": "Enhanced Gardening bag",
-    "itemdesc-bigger-gardening-bag": "Can store more and all items related to plants, seeds or crops."
+    "itemdesc-bigger-gardening-bag": "Can store more items related to plants, seeds or crops then the sturdy gardening bag.",
+    
+    "item-industrial-fertilizer": "High-nitrogen fertilizer",
+    "itemdesc-industrial-fertilizer": "High quality fertiliser for the garden."
 }

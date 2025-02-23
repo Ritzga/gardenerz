@@ -9,6 +9,13 @@
 
     "item-gardening-bag": "Pflanzentasche",
     "itemdesc-gardening-bag": "Kann alle Items im Zusammenhang mit Pflanzen, Saatgut oder Ernten lagern.",
+    
+    "item-gardening-bag-sturdy": "Verstärkte Pflanzentasche",
+    "itemdesc-gardening-bag-sturdy": "Verstärkte Tasche zum lagern von Items im Zusammenhang mit Pflanzen, Saatgut oder Ernte.",
+    
     "item-bigger-gardening-bag": "Erweiterte Pflanzentasche",
-    "itemdesc-bigger-gardening-bag": "Erweiterte Tasche zum lagern von Items im Zusammenhang mit Pflanzen, Saatgut oder Ernte."
+    "itemdesc-bigger-gardening-bag": "Erweiterte Tasche zum lagern von Items im Zusammenhang mit Pflanzen, Saatgut oder Ernte.",
+    
+    "item-industrialfertilizer": "Nitratdünger",
+    "itemdesc-industrialfertilizer": "Hoch qualitativer Dünger für den Garten."
 }

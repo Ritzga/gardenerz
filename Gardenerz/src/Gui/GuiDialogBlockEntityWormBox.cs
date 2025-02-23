@@ -13,7 +13,7 @@ public class GuiDialogBlockEntityWormBox : GuiDialogBlockEntity
         : base(dialogTitle, Inventory, BlockEntityPosition, capi)
     {
         if (IsDuplicate) return;
-        tree.OnModified.Add(new TreeModifiedListener() { listener = OnAttributesModified } );
+        tree.OnModified.Add(new TreeModifiedListener { listener = OnAttributesModified } );
         Attributes = tree;
     }
     

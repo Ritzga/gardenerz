@@ -1,7 +1,7 @@
 ﻿{
     "ingredientPattern": "LTL,PLP",
     "ingredients": {
-        "T": { "type": "item", "code": "gardenerz:gardening-bag"},
+        "T": { "type": "item", "code": "gardenerz:gardening-bag-sturdy"},
         "L": { "type": "block", "code": "game:linen-*", "quantity": 6},
         "P": { "type": "item", "code": "game:cloth-plain", "quantity": 4}
     },

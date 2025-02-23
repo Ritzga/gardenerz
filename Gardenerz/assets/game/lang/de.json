@@ -9,10 +9,10 @@
     "trait-healthy": "<font color=\"#84ff84\">• Gesunde Lebensweise</font>",
     "traitname-healthy": "Gesunde Lebensweise",
     
-    "charattribute-cropDropRate-0.4": "+40% Ernte aus der Ernte",
+    "charattribute-cropDropRate-0.3": "+30% Ernte aus der Ernte",
     "charattribute-wildCropDropRate-0.2": "+20% Wildpflanzenernte",
     "charattribute-cropMultiplier-1.1": "+10% Multiplikator für den Ernteertrag von gezüchteten Pflanzen",
-    "charattribute-wildCropMultiplier-1.4": "+40% Multiplikator für den Ernteertrag von wilden Pflanzen",
+    "charattribute-wildCropMultiplier-1.3": "+30% Multiplikator für den Ernteertrag von wilden Pflanzen",
     "charattribute-maxhealthExtraPoints-3": "+3 Lebenspunkte",
     
     "characterclass-gardener": "Gärtner:in",

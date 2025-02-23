@@ -1,5 +1,5 @@
 {
-    "code": "gardenerz:bigger-gardening-bag",
+    "code": "gardenerz:gardening-bag-sturdy",
     "maxstacksize": 1,
     "shape": {
         "base": "game:item/bag/miningbagsturdy"
@@ -111,7 +111,7 @@
     },
     "attributes": {
         "backpack": {
-            "quantitySlots": 18,
+            "quantitySlots": 14,
             "storageFlags": 32,
             "slotBgColor": "#c7ffa5"
         }

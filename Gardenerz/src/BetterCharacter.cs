@@ -11,7 +11,7 @@ public class BetterCharacter
 {
     public static List<CharacterClass> CharacterClasses = new()
     {
-        new CharacterClass()
+        new CharacterClass
         {
             Code = "gardener",
             Gear = new JsonItemStack[]
@@ -59,10 +59,10 @@ public class BetterCharacter
         new Trait
         {
             Code = "green-fingers",  
-            Attributes = new Dictionary<string, double>() {
+            Attributes = new Dictionary<string, double> {
                 {"cropMultiplier", 1.1},
-                {"wildCropMultiplier", 1.4},
-                {"cropDropRate", 0.4},
+                {"wildCropMultiplier", 1.3},
+                {"cropDropRate", 0.3},
                 {"wildCropDropRate", 0.2},
             },
             Type = EnumTraitType.Positive
@@ -76,7 +76,7 @@ public class BetterCharacter
         new Trait
         {
             Code = "healthy",  
-            Attributes = new Dictionary<string, double>() {
+            Attributes = new Dictionary<string, double> {
                 {"maxhealthExtraPoints", 3}
             },
             Type = EnumTraitType.Positive
