@@ -1,0 +1,20 @@
+{
+  "trait-gardener": "<font color=\"#84ff84\">• Ogrodnik</font>",
+  "traitname-gardener": "Ogrodnik",
+  "traitdesc-gardener": "Masz naturalny talent do opieki nad roślinami",
+
+  "trait-green-fingers": "<font color=\"#84ff84\">• Zielone palce</font>",
+  "traitname-green-fingers": "Zielone palce",
+
+  "trait-healthy": "<font color=\"#84ff84\">• Zdrowy</font>",
+  "traitname-healthy": "Zdrowy",
+
+  "charattribute-cropDropRate-0.3": "+30% plonów z upraw",
+  "charattribute-wildCropDropRate-0.2": "+20% plonów z dzikich roślin",
+  "charattribute-cropMultiplier-1.1": "+10% do mnożnika plonów",
+  "charattribute-wildCropMultiplier-1.3": "+30% do mnożnika dzikich plonów",
+  "charattribute-maxhealthExtraPoints-3": "+3 punkty zdrowia",
+
+  "characterclass-gardener": "Ogrodnik",
+  "characterdesc-gardener": "Lata dostarczania pożywienia swojej wiosce uczyniły z ciebie doświadczonego ogrodnika. Może nie jesteś najlepszy w opiece nad zwierzętami, ale świetnie radzisz sobie z uprawą roślin."
+}

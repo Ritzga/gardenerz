@@ -1,0 +1,21 @@
+{
+  "init": "[gardenerz] gardenerz załadowany",
+  "init-client": "[gardenerz] uruchomiono po stronie klienta",
+  "init-client-loaded": "[gardenerz] klasy załadowane po stronie klienta",
+  "init-server": "[gardenerz] uruchomiono po stronie serwera",
+  "init-server-loaded": "[gardenerz] klasy załadowane po stronie serwera",
+  "debug-player-empty": "[gardenerz] brak danych gracza przy dołączaniu",
+  "debug-entity-empty": "[gardenerz] encja gracza niezainicjowana przy dołączaniu",
+
+  "item-gardening-bag": "Torba ogrodnicza",
+  "itemdesc-gardening-bag": "Może przechowywać wszystkie przedmioty związane z roślinami, nasionami lub plonami.",
+
+  "item-gardening-bag-sturdy": "Wytrzymała torba ogrodnicza",
+  "itemdesc-gardening-bag-sturdy": "Może przechowywać więcej przedmiotów związanych z roślinami, nasionami lub plonami niż zwykła torba ogrodnicza.",
+
+  "item-bigger-gardening-bag": "Ulepszona torba ogrodnicza",
+  "itemdesc-bigger-gardening-bag": "Może przechowywać więcej przedmiotów związanych z roślinami, nasionami lub plonami niż wytrzymała torba ogrodnicza.",
+
+  "item-industrial-fertilizer": "Nawóz azotowy",
+  "itemdesc-industrial-fertilizer": "Wysokiej jakości nawóz do ogrodu."
+}
