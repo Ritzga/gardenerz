@@ -1,0 +1,39 @@
+{
+    "ingredientPattern": "PCB,_A_",
+    "ingredients": {
+        "P": {
+            "type": "item",
+            "code": "game:potash",
+            "quantity": 2
+        },
+        "C": {
+            "type": "item",
+            "code": "game:bonemeal",
+            "quantity": 2
+        },
+        "B": {
+            "type": "item",
+            "code": "game:compost",
+            "quantity": 2
+        },
+        "A" : {
+            "type": "block",
+            "code": "game:woodbucket",
+            "quantity": 1
+        }
+    },
+    "name": "gardenerz:industrial-fertilizer",
+    "width": 3,
+    "height": 2,
+    "attributes": {
+        "liquidContainerProps": {
+            "requiresContent": { "type": "item", "code": "acid-full-sulfuric" },
+            "requiresLitres": 2
+        }
+    },
+    "output": {
+        "type": "item",
+        "code": "gardenerz:industrial-fertilizer",
+        "quantity": 4
+    }
+}

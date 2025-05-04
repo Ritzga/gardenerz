@@ -7,7 +7,7 @@
         "Ritzga"
     ],
     "description": "Adds the gardener class to vintage story.",
-    "version": "0.1.3",
+    "version": "0.1.4",
     "dependencies": {
         "game": "1.20.0",
         "betteritemflags": "0.1.1"
