@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup>
-        <TargetFramework>net7.0</TargetFramework>
+        <TargetFramework>net8.0</TargetFramework>
         <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
         <OutputPath>bin\$(Configuration)\Mods\gardenerz</OutputPath>
     </PropertyGroup>
@@ -18,7 +18,7 @@
             <HintPath>$(VINTAGE_STORY)\Mods\VSEssentials.dll</HintPath>
             <Private>false</Private>
         </Reference>
-        <PackageReference Include="Lib.Harmony" Version="2.3.0-prerelease.2">
+        <PackageReference Include="Lib.Harmony" Version="2.4.1">
             <Private>false</Private>
         </PackageReference>
     </ItemGroup>
